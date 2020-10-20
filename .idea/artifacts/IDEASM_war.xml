@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IDEASM:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>IDEASM</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="IDEASM.war">
+      <element id="artifact" artifact-name="IDEASM:war exploded" />
+    </root>
+  </artifact>
+</component>
